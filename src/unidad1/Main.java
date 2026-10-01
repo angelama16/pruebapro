@@ -1,4 +1,4 @@
-package U1.ejemplos;
+package unidad1;
 
 import java.util.Random;
 
@@ -21,7 +21,9 @@ public class Main {
 		
 	}
 
-	static void unMetodo() {
+	static int unMetodo() {
 		System.out.println("Hola mundo");
+		return 10;
 	}
+	
 }
